@@ -1,56 +1,36 @@
 ﻿using NSpec;
-using System.IO;
+using System;
 
 namespace CSharp.TestLibrary
 {
     public class describe_sample : nspec
     {
-        StringWriter writer;
-
-        int number = 0;
-        string actual = null;
-        string expected = null;
-
         void before_each()
         {
-            writer = new StringWriter();
         }
 
         void after_each()
         {
-            writer.Dispose();
         }
 
-        void converting_to_message()
+        void it_passes()
         {
-            act = () =>
+            true.ShouldBeTrue();
+        }
+
+        void some_scenario()
+        {
+            before = () => { };
+
+            act = () => { };
+
+            context["some sub-scenario"] = () =>
             {
-                writer.Write("Number is: ");
-                writer.Write(number);
+                before = () => { };
 
-                actual = writer.ToString();
-            };
+                it["passes"] = () => true.ShouldBeTrue();
 
-            context["when number is positive"] = () =>
-            {
-                before = () =>
-                {
-                    number = 123;
-                    expected = "Number is: 123";
-                };
-
-                it["returns correct message"] = () => (actual == expected).ShouldBeTrue();
-            };
-
-            context["when number is negative"] = () =>
-            {
-                before = () =>
-                {
-                    number = -456;
-                    expected = "Number is: -456";
-                };
-
-                it["returns correct message"] = () => (actual == expected).ShouldBeTrue();
+                it["passes by throwing"] = () => expect<DivideByZeroException>(() => { throw new DivideByZeroException(); });
             };
         }
     }

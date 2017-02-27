@@ -35,7 +35,7 @@
     <iconUrl>https://cdn.rawgit.com/nspec/NSpec/gh-pages/assets/images/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes></releaseNotes>
-    <tags>testing bdd tdd rspec mocha dotnet core test</tags>
+    <tags>testing bdd tdd rspec mocha dotnet core test template</tags>
     <language>en-US</language>
     <packageTypes>
       <packageType name="Template" />
