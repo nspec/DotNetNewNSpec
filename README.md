@@ -1,6 +1,7 @@
 # DotNetNewNSpec
 
-DotNetNewNSpec is a set of Visual Studio project templates to be used when creating projects from .NET Core *dotnet new* command line interface.
+[![NuGet Version and Downloads count](https://buildstats.info/nuget/dotnet-new-nspec)](https://www.nuget.org/packages/dotnet-new-nspec)
+
 DotNetNewNSpec is a set of Visual Studio project templates to be used when creating projects from .NET Core `dotnet new` command line interface.
 
 Currently, it contains a project template for a NSpec test library targeting both .NET Core and .NET Frameowrk.
