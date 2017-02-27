@@ -6,31 +6,33 @@
     <title>NSpec dotnet new templates</title>
     <summary>NSpec Visual Studio project templates for .NET Core Command Line Interface.</summary>
     <description>
-      It installs Visual Studio project templates to be used when creating projects from .NET Core 'dotnet new' command line interface.
-      Currently, it contains a project template for a NSpec test library targeting both .NET Core and .NET Frameowrk.
+It installs Visual Studio project templates to be used when creating projects from .NET Core 'dotnet new' command line interface.
+Currently, it contains a project template for a NSpec test library targeting both .NET Core and .NET Frameowrk.
 
-      ## Minimum requirements
+## Minimum requirements
 
-      Even if template currently creates a project supporting .NET Core Tools Preview 2 (the one based on project.json),
-      in order to install custom CLI templates like this you need to have at least .NET Core Tools RC4 on your development machine.
+Even if template currently creates a project supporting .NET Core Tools Preview 2 (the one based on project.json),
+in order to install custom CLI templates like this you need to have at least .NET Core Tools RC4 on your development machine.
 
-      ## Usage
+## Usage
 
-      To install the latest version of templates, from a command line run:
+To install the latest version of templates, from a command line run:
 
-      > dotnet new --install dotnet-new-nspec::*
+> dotnet new --install dotnet-new-nspec::*
 
-      To create a NSpec library project from those templates:
+To create a NSpec library project from those templates:
 
-      > dotnet new nspectest -n MyTestProject
+> dotnet new nspectest -n MyTestProject
 
-      For more instructions on creating projects from the command line, see https://docs.microsoft.com/en-us/dotnet/articles/core/preview3/tools/dotnet-new.
+For more instructions on creating projects from the command line, see https://docs.microsoft.com/en-us/dotnet/articles/core/preview3/tools/dotnet-new.
 
-      For more info on NSpec testing framework, please see https://github.com/nspec/NSpec or http://nspec.org website.
+For more info on NSpec testing framework, please see https://github.com/nspec/NSpec or http://nspec.org website.
 
-      ## Credits
+## Credits
 
-      DotNetNewNSpec is written by BrainCrumbz (http://www.braincrumbz.com).
+DotNetNewNSpec is written by BrainCrumbz (http://www.braincrumbz.com).
+
+* * * * * * * *
     </description>
     <authors>BrainCrumbz</authors>
     <owners>BrainCrumbz</owners>
