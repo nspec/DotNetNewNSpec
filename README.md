@@ -8,9 +8,8 @@ Currently, it contains a project template for a NSpec test library targeting bot
 
 ## Minimum requirements
 
-Even if template currently creates a project based on *.NET Core Tools Preview 2* (the one based on project.json),
-in order to install custom project templates such this from the command line you need to have at least **.NET Core Tools RC4**
-installed on your development machine.
+Even if template currently creates a project supporting *.NET Core Tools Preview 2* (the one based on project.json),
+in order to install custom CLI templates like this you need to have at least **.NET Core Tools RC4** on your development machine.
 
 ## Usage
 
@@ -37,5 +36,7 @@ To check for potential breaking changes, see [BREAKING-CHANGES.md](./BREAKING-CH
 ## License
 
 [MIT](./license.txt)
+
+## Credits
 
 DotNetNewNSpec is written by [BrainCrumbz](http://www.braincrumbz.com).
