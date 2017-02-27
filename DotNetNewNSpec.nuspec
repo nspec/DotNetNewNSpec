@@ -9,8 +9,12 @@
       It installs Visual Studio project templates to be used when creating projects from .NET Core 'dotnet new' command line interface.
       Currently, it contains a project template for a NSpec test library targeting both .NET Core and .NET Frameowrk.
 
+      ## Minimum requirements
+
       Even if template currently creates a project based on .NET Core Tools Preview 2 (the one based on project.json),
       in order to install custom project templates such this from the command line you need to have at least .NET Core Tools RC4 installed on your machine.
+
+      ## Usage
 
       To install the latest version of templates, from a command line run:
 
@@ -24,9 +28,9 @@
 
       For more info on NSpec testing framework, please see https://github.com/nspec/NSpec or http://nspec.org website.
 
-      DotNetNewNSpec is written by BrainCrumbz (http://www.braincrumbz.com).
+      ## Credits
 
-      For instructions on creating projects from the command line, see https://docs.microsoft.com/en-us/dotnet/articles/core/preview3/tools/dotnet-new.
+      DotNetNewNSpec is written by BrainCrumbz (http://www.braincrumbz.com).
     </description>
     <authors>BrainCrumbz</authors>
     <owners>BrainCrumbz</owners>
