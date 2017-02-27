@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CSharp.TestLibrary", "Content\CSharp.TestLibrary\CSharp.TestLibrary.xproj", "{2B575267-E8B6-465F-A59C-260D10530B52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{FB451139-2F6C-413A-8697-697516B9F05F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B651550-A90D-4386-9EE1-13EAF425DEB6}"
+	ProjectSection(SolutionItems) = preProject
+		BREAKING-CHANGES.md = BREAKING-CHANGES.md
+		DotNetNewNSpec.nuspec = DotNetNewNSpec.nuspec
+		global.json = global.json
+		license.txt = license.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B575267-E8B6-465F-A59C-260D10530B52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B575267-E8B6-465F-A59C-260D10530B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B575267-E8B6-465F-A59C-260D10530B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B575267-E8B6-465F-A59C-260D10530B52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B575267-E8B6-465F-A59C-260D10530B52} = {FB451139-2F6C-413A-8697-697516B9F05F}
+	EndGlobalSection
+EndGlobal

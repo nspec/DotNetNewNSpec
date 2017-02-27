@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>dotnet-new-nspec</id>
+    <version>0.1.0</version>
+    <title>NSpec dotnet new templates</title>
+    <summary>NSpec Visual Studio project templates for .NET Core Command Line Interface.</summary>
+    <description>
+      It installs Visual Studio project templates to be used when creating projects from .NET Core 'dotnet new' command line interface.
+      Currently, it contains a project template for a NSpec test library targeting both .NET Core and .NET Frameowrk.
+
+      Even if template currently creates a project based on .NET Core Tools Preview 2 (the one based on project.json),
+      in order to install custom project templates such this from the command line you need to have at least .NET Core Tools RC4 installed on your machine.
+
+      To install the latest version of templates, from a command line run:
+
+      > dotnet new --install dotnet-new-nspec::*
+
+      To create a NSpec library project from those templates:
+
+      > dotnet new nspectest -n MyTestProject
+
+      For more instructions on creating projects from the command line, see https://docs.microsoft.com/en-us/dotnet/articles/core/preview3/tools/dotnet-new.
+
+      For more info on NSpec testing framework, please see https://github.com/nspec/NSpec or http://nspec.org website.
+
+      DotNetNewNSpec is written by BrainCrumbz (http://www.braincrumbz.com).
+
+      For instructions on creating projects from the command line, see https://docs.microsoft.com/en-us/dotnet/articles/core/preview3/tools/dotnet-new.
+    </description>
+    <authors>BrainCrumbz</authors>
+    <owners>BrainCrumbz</owners>
+    <projectUrl>https://github.com/nspec/DotNetNewNSpec</projectUrl>
+    <licenseUrl>https://github.com/nspec/DotNetNewNSpec/blob/master/license.txt</licenseUrl>
+    <iconUrl>https://cdn.rawgit.com/nspec/NSpec/gh-pages/assets/images/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes></releaseNotes>
+    <tags>testing bdd tdd rspec mocha dotnet core test</tags>
+    <language>en-US</language>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="Content\**" exclude="**\.vs\**;**\bin\**;**\obj\**;**\*.user;**\*.lock.json" target="content"/>
+  </files>
+</package>

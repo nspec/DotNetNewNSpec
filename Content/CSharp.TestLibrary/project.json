@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+
+  "testRunner": "nspec",
+
+  "dependencies": {
+    "dotnet-test-nspec": "0.1.1",
+    "NSpec": "2.0.1"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "portable-net45+win8"
+      ],
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.1"
+        }
+      }
+    },
+    "net451": {
+    }
+  }
+}

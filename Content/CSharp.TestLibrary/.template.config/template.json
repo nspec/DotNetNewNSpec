@@ -1,0 +1,15 @@
+{
+  "author": "BrainCrumbz",
+  "classifications": [ "Test", "NSpec" ],
+  "name": "NSpec .NET Core C# Test Project",
+  "tags": {
+    "language": "C#"
+  },
+  "identity": "NSpec.CSharp.TestLibrary",
+  "groupIdentity": "NSpec",
+  "shortName": "nspectest",
+  "sourceName": "CSharp.TestLibrary",
+  "guids": [
+    "00000000-0000-0000-0000-000000000001"
+  ]
+}
