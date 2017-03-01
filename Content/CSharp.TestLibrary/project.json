@@ -4,8 +4,8 @@
   "testRunner": "nspec",
 
   "dependencies": {
-    "dotnet-test-nspec": "0.1.1",
-    "NSpec": "2.0.1"
+    "dotnet-test-nspec": "0.2.0",
+    "NSpec": "3.0.0"
   },
 
   "frameworks": {
@@ -14,6 +14,7 @@
         "portable-net45+win8"
       ],
       "dependencies": {
+        "Microsoft.Extensions.Testing.Abstractions": "1.0.0-preview2-003121",
         "Microsoft.NETCore.App": {
           "type": "platform",
           "version": "1.0.1"
@@ -21,6 +22,10 @@
       }
     },
     "net451": {
+      "dependencies": {
+        "Microsoft.DiaSymReader.Native": "1.4.2",
+        "Microsoft.NETCore.Platforms": "1.1.0"
+      }
     }
   }
 }

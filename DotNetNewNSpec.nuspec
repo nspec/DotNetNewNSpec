@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>dotnet-new-nspec</id>
-    <version>0.1.0</version>
+    <version>1.0.0</version>
     <title>NSpec dotnet new templates</title>
     <summary>NSpec Visual Studio project templates for .NET Core Command Line Interface.</summary>
     <description>
