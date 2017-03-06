@@ -1,4 +1,5 @@
 ﻿using NSpec;
+using NSpec.Assertions;
 using System;
 
 namespace CSharp.TestLibrary
