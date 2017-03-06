@@ -9,7 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{FB45
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B651550-A90D-4386-9EE1-13EAF425DEB6}"
 	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
 		BREAKING-CHANGES.md = BREAKING-CHANGES.md
+		Build-Package.ps1 = Build-Package.ps1
 		DotNetNewNSpec.nuspec = DotNetNewNSpec.nuspec
 		global.json = global.json
 		license.txt = license.txt
