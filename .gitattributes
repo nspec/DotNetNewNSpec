@@ -1,0 +1,3 @@
+# Exclude additional files/directories from GitHub language statistics
+
+**/Build-Package.ps1 linguist-vendored
